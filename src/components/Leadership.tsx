@@ -1,8 +1,8 @@
-import { Crown, ShieldCheck, Users } from 'lucide-react';
+import { Crown, ShieldCheck, Users, Trophy } from 'lucide-react';
 import { useReveal } from '../hooks/useReveal';
 import { leadershipRoles } from '../data/content';
 
-const icons = [Users, ShieldCheck, Crown];
+const icons = [Users, ShieldCheck, Crown, Trophy];
 
 export default function Leadership() {
   const ref = useReveal<HTMLDivElement>();
